@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+
+body {
+  background-color: #C4C4C4;
+}
+
+select {
+  display: inline-block;
+}
+
+.btn:active, .btn-large:active {
+  color: #000;
+}
+
+.addbtn {
+  margin-top: 35px;
+}
+
+/*//Header design*/
+.nav-wrapper {
+  background-color: #fff;
+}
+
+nav .brand-logo {
+  color: #000;
+}
+
+nav ul a {
+  color: #000;
+}
+
+.brand-logo {
+  margin-left: 15px;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.brand-image {
+  height: 25px;
+  width: 25px;
+  margin-bottom: 10px;
+  margin-left: 3px;
+}
+
+/*main*/
+
+.welcome {
+  margin-top: 20%;
+}
+
+.welcome a {
+  margin-top: 40px;
+}
+
+.btn, .btn-large, .btn:hover, .btn-large:hover {
+  background-color: #000;
+}
+
+.items {
+  margin: 15px;
+  padding: 30px;
+}
+
+
+/*New item*/
+
+.add {
+  margin-top: 140px;
+}
+.add p {
+  margin-top: 70px;
+}
+
+.add-item {
+  background-color: #fff;
+}
+
+.inputs {
+  width: 85%;
+  margin: auto;
+  margin-top: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/*Delete form*/
+
+.item-form {
+  padding: 20px;
+  margin-top: 50px;
+}
+.selectField {
+  width: 60%;
+  margin: auto;
+}
+
+/*Media Queires*/
+@media screen and (max-width: 960px) {
+  .collection-cards {
+    height: 190px;
+  }
+  .collection-cards h1 {
+    margin-top: 30px
+  }
+
+  .collection-cards p {
+    margin-top: 20px;
+    /*padding-bottom: 20px;*/
+  }
+}
