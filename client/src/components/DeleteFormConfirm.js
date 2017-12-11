@@ -6,13 +6,15 @@ import { withRouter } from "react-router-dom";
 const DeleteFormConfirm = ({ onCancel, formValues, deleteItem, history, values }) => {
 
   return (
-    <div>
-      <h3>Are you sure?</h3>
+    <div className="container">
+      <div className="add-item card center-align inputs">
+        <h3>Are you sure?</h3>
 
-      <button className="btn" onClick={onCancel}>Cancel</button>
-      <button onClick={() => deleteItem(formValues, history)} className="btn red">
-        Delete
-      </button>
+        <button className="btn" onClick={onCancel}>Cancel</button>
+        <button onClick={() => deleteItem(formValues, history)} className="btn red">
+          Delete
+        </button>
+      </div>
     </div>
   );
 };
