@@ -71,16 +71,16 @@ There are a ton of ways to build this boilerplate into your real project. The us
 
 Some key files to remember if you are changing the data you want collected for your database:
 
--models
---Items.js
--client
---src
----actions
-----index.js
----components
-----Form.js
--routes
---itemRoutes.js
+-models  
+--Items.js  
+-client  
+--src  
+---actions  
+----index.js  
+---components  
+----Form.js  
+-routes  
+--itemRoutes.js  
 
 **Styling**
 
