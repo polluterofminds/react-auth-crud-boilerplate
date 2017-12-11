@@ -6,6 +6,8 @@ A React app boilerplate that includes both CRUD functionality (with a MongoDB co
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+See a demo of this boilerplate at https://immense-shelf-44738.herokuapp.com/
+
 ### Installing
 
 Clone the repository:
@@ -58,7 +60,7 @@ $ npm run dev
 With that, you'll be live at http://loclahost:3000 and ready to log in and get started.
 
 
-See a demo of this boilerplate at ""
+See a demo of this boilerplate at https://immense-shelf-44738.herokuapp.com/
 
 
 ### Extending the boilerplate
@@ -84,7 +86,7 @@ Some key files to remember if you are changing the data you want collected for y
 
 The base boilerplate code uses [Materialize](http://materializecss.com/). You can overwrite this by removing the link tag from the index.html file. Or, you can simply overwrite the styling in your own css file.
 
-If you'd like to use another framework, be sure to update the classNames on all html elements within the React components. 
+If you'd like to use another framework, be sure to update the classNames on all html elements within the React components.
 
 ## Deployment
 
