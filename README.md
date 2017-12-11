@@ -57,7 +57,7 @@ Now, you're ready to fire up the development server. If you haven't already, run
 $ npm run dev
 ```
 
-With that, you'll be live at http://loclahost:3000 and ready to log in and get started.
+With that, you'll be live at http://localhost:3000 and ready to log in and get started.
 
 
 See a demo of this boilerplate at https://immense-shelf-44738.herokuapp.com/
